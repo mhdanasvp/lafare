@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/mhdanasvp/lafare/static/css/main.cab3fa61.css",
+    "main.js": "/mhdanasvp/lafare/static/js/main.712ae09c.js",
+    "static/js/787.ba19f86d.chunk.js": "/mhdanasvp/lafare/static/js/787.ba19f86d.chunk.js",
+    "static/media/lafare.mp4": "/mhdanasvp/lafare/static/media/lafare.a4b2f31526895594e259.mp4",
+    "static/media/bb.png": "/mhdanasvp/lafare/static/media/bb.a84ee0d6ee70e36251ae.png",
+    "static/media/image3.png": "/mhdanasvp/lafare/static/media/image3.dadae74158e9ce5a8cda.png",
+    "static/media/ba.png": "/mhdanasvp/lafare/static/media/ba.f2011347cae1fddda4cd.png",
+    "static/media/image33.png": "/mhdanasvp/lafare/static/media/image33.d7f5228efd575e7ef6e9.png",
+    "static/media/image333.png": "/mhdanasvp/lafare/static/media/image333.0b83086024e06126e707.png",
+    "static/media/image7.png": "/mhdanasvp/lafare/static/media/image7.68b7b1196e74a26b038b.png",
+    "static/media/matchaimg.png": "/mhdanasvp/lafare/static/media/matchaimg.dcf2602653fbc8520df0.png",
+    "static/media/Ellipse3.png": "/mhdanasvp/lafare/static/media/Ellipse3.474bea75235c366fb101.png",
+    "static/media/Ellipse.png": "/mhdanasvp/lafare/static/media/Ellipse.e1fe6bd71128c8128d9e.png",
+    "static/media/Ellipse2.png": "/mhdanasvp/lafare/static/media/Ellipse2.6f464bf62d8b732d6572.png",
+    "index.html": "/mhdanasvp/lafare/index.html",
+    "main.cab3fa61.css.map": "/mhdanasvp/lafare/static/css/main.cab3fa61.css.map",
+    "main.712ae09c.js.map": "/mhdanasvp/lafare/static/js/main.712ae09c.js.map",
+    "787.ba19f86d.chunk.js.map": "/mhdanasvp/lafare/static/js/787.ba19f86d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cab3fa61.css",
+    "static/js/main.712ae09c.js"
+  ]
+}
