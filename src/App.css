@@ -1,0 +1,966 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700&display=swap');
+
+:root {
+  --primary-color: #328090;
+  --secondery-color: #1BC768;
+  --primary-text-color:#255E8A;
+  --secondery-text-color: #737373;
+  --light-color: #ffffff;
+  --dark-color:#000000;
+  --inactive-color: #429997;
+  --active-color: #429997;
+  --activepro-color:  #FAA51A;
+  --primary-font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--primary-font-family);
+  border: none;
+}
+
+:focus-visible {
+  outline: none;
+}
+
+.section_sub_title {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--activepro-color);
+
+}
+
+.section_title {
+  font-size: 50px;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin: 10px 0;
+}
+
+.content {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--dark-color);
+  /* text-indent: 30px; */
+}
+
+.learn_more {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.learn_more a {
+  color: var(--dark-color);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+
+#NavHeader {
+  background-color: var(--light-color);
+  z-index: 1;
+  margin-bottom: '2rem';
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: sticky;
+}
+
+#NavHeader .logo1 {
+  display: flex;
+  align-items: center;
+  display:block
+}
+#NavHeader .logo2 {
+  display:none;
+}
+
+
+#NavHeader  a {
+  color: var(--primary-color);
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+#NavHeader .navbar-nav .linked{
+  text-decoration: none;
+}
+
+#NavHeader .enquire_button button {
+  color: var(--light-color);
+  font-size: 14px;
+  font-weight: 700;
+  padding: 15px 25px;
+  background-color: var(--activepro-color);
+  border: none;
+
+}
+#NavHeader .enquire_button button:hover{
+ background-color:  var(--primary-text-color);
+  color: #FAA51A;
+  /* border: 1px #ccc solid; */
+}
+
+#NavHeader .navbar-collapse {
+  flex-grow: unset;
+  justify-content: space-between;
+  width: 100%;
+}
+#NavHeader .modal{
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  display: flex;
+  visibility: hidden;
+  align-items: center;
+  justify-content: center;
+  transition: 1s ease all;
+}
+
+/* About */
+.image3{
+height:500px;
+width:500px;
+margin-top: 20%;
+margin-bottom: 20%;
+}
+/* aboutsingle */
+.image33{
+  height:500px;
+  width:500px;
+  }
+  .topsingle{
+    margin-top:4%;
+    margin-bottom: 4%;
+  }
+
+/* Services */
+
+#okok{
+  width:15rem;
+  height:14rem;
+}
+.cardservicelandingpage{
+  padding-left:8%;
+}
+/* .servicecardlanding{
+  width: 18rem;
+  background-color:#255E8A;
+  height:14rem;
+  padding-left:2%;
+} */
+.specialtitle{
+  text-align: center;
+  font-size: 45px;
+}
+.cardimage{
+  height:80px;
+  padding: 5%;
+  width:50%;
+  /* margin-left: 35%; */
+  object-fit: contain;
+
+}
+.cardimage{
+
+}
+.cardtitle{
+  color: var(--light-color);
+  text-align: center;
+}
+.cardtitleser{
+  color: var(--light-color);
+  text-align: center;
+}
+.cardtext{
+  color: var(--light-color);
+  text-align: center;
+}
+.cardtitleellow{
+  color: var(--primary-text-color);
+  text-align: center;
+}
+.cardtextbellow{
+  color: var(--dark-color); 
+  text-align: center;
+}
+.cardbellow{
+  border-color: var(--light-color);
+}
+
+.mainbellow{
+ 
+  box-shadow: 5px 5px 18px #29252594;
+  padding: 45px 10px;
+}
+/* testimonial */
+.stars{
+  display: flex;
+}
+.testimonialcard{
+  padding:8%;
+  box-shadow: 5px 5px 18px #29252594;
+}
+.descrription{
+  margin-left: 5%;
+}
+.designatn{
+  font-size: 18px;
+  color: var(--primary-text-color);
+ 
+  /* position:initial */
+  margin-top:10%;
+  
+}
+
+.horizontal{
+ /* margin:0 auto; */
+ display: block;
+ text-align: center;
+ padding: 30px;
+ font-size: 25px;
+
+  
+}
+/* contact */
+.joint{
+  display:flex;
+  justify-content:flex-start;
+  margin-top: 12%;
+}
+.jointcontent{
+  font-size:15px;
+  padding-right: 20%;
+}
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 25px;
+} 
+
+.line{
+  background-color: var(--primary-color);
+  height: 80px;
+  width: 2px;
+  display: block;
+  margin: 20px 0;
+}
+.close_button{
+  top:20px;
+  padding: 20px;
+  background-color: #fff;
+  margin-left:85%;
+  color:#000;
+  position: fixed;
+  cursor: pointer;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+/* form */
+/* #contact_form .submit-section {
+  color: var(--light-color);
+  font-size: 14px;
+  font-weight: 700;
+  padding: 15px 25px;
+  background-color: var(--activepro-color);
+  border: none;
+
+} */
+/* .right-section .submit-section input[type=submit]{
+  /* color: #FAA51A ; */
+  /* color: #ffff; */
+  /* background-color:  #FAA51A; */
+  /* padding: 24px 24px; */
+  /* /* padding: 9px 32px; */
+  /* border: none; */
+  /* border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 35%; 
+  
+}  */
+.sp-tit-1{
+  margin-bottom: 45px;
+}
+#Contact{
+  margin-top: 35px;
+}
+.serv-sec{
+  /* background-color: #000; */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+ 
+.buttonsubmit{
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  background-color:  #FAA51A;
+  color: #ffff;
+  padding: 3% 8%;
+  border-radius: 4px;
+  text-align: center;
+  margin-left: 35%
+
+}
+.buttonsubmit:hover{
+  background-color:  var(--primary-text-color);
+  color: #FAA51A;
+  /* border: 1px #ccc solid; */
+}
+
+#fname,#Data_sets{
+  border-radius: 7px;
+}
+.right-section{
+  width:500px;
+  height:600px;
+  background:#FFFF;
+  border-radius:4%;
+   box-shadow: 5px 5px 18px #29252594;
+   padding:5rem;
+
+}
+/* .right-section{
+  /* border-radius: 5px; */
+  /* background-color: #f2f2f2; */
+  /* padding: 20px; */
+  /* width: 500px; */
+  /* height: 900px; */
+  /* margin-left:55%; */
+  /* position: fixed;
+  overflow-y: scroll; */
+/* position: absolute; */
+/* display:  inline-block; */
+/* } */ 
+input[type=text],[type=email],[type=tel], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+.right-section h4{
+    color: #1D2671;
+    text-align: center;
+    font-weight: 550;
+    font-size: 40px;
+}
+.right-section img{
+    margin-left: 15%;
+}
+.right-section .close{
+  position: absolute;
+  top:20px;
+  right:20px;
+  width:30px;
+  height:30px;
+  font-size: 30px;
+  font-weight: 600;
+  cursor: pointer; 
+}
+.right-section .active {
+  display:block;
+}
+/* footer */
+.footerspan{
+  color: var(--primary-text-color);
+  font-weight: 700;
+}
+.footersection{
+ background-color:'#255E8A';
+}
+
+
+#footermain .footersection  h6{
+  color: var(--light-color);
+}
+#footermain .footersection  p {
+  color: var(--light-color);
+  text-decoration-line: none;
+}
+
+
+.logowhite{
+  margin-top: 25%;
+}
+.same{
+  /* margin-top: 15%; */
+ 
+}
+.samebellow{
+/* margin-top: 45%; */
+
+}
+.footersection{
+  background-color: #255E8A;
+  padding-top: 20px;
+}
+.samebellow2{
+  /* margin-top: 95%;
+  margin-left: 15%; */
+  color: var(--light-color);
+  align-self: flex-end;
+  margin-bottom: 15px;
+  min-width: 300px;
+  font-size: 30px;
+
+  }
+.footerend{
+  display: flex;
+  align-items: center;
+}
+  .sectionfooter a{
+   text-decoration: none;
+  }
+  .phone-con{
+    display: flex;
+justify-content: flex-end;
+padding: 30px;
+  }
+  .phone{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border: 7px solid #255E8A;
+    border-radius: 50%;
+    /* margin-left: 87%; */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .phone:hover{
+    border: 7px solid #FAA51A;
+  }
+  .phonepic{
+    /* margin-top: 17%; */
+    object-fit: contain;
+    width: 60%;
+    height: 60%;
+  }
+/* about single */
+#AboutSingle #Services .container{
+  background: none !important;
+
+}
+#About{
+  max-height: 600px;
+}
+.abt-con{
+  height: 100%;
+}
+
+#NavHeader.pages{
+  background-color:#255E8A;
+  
+}
+  #NavHeader.pages a {
+  color: var(--light-color);
+ } 
+ #NavHeader.pages .logo2{
+  display:block;
+ }
+ #NavHeader.pages .logo1{
+  display:none;
+ }
+
+
+/* servicepage */
+.first{
+  background-size: cover;
+}
+.firsth1{
+  width:100%;
+  padding: 7.2% 16%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: var(--light-color);
+  font-weight: 700;
+  font-size: 50px;
+  
+}
+.firstrow{
+  margin: 9% ; 
+}
+.cardimgservicepage{
+  width:200px;
+  height:200px;
+  margin-left: 15%;
+}
+.cardservicepage{
+ width:300px;
+ box-shadow: 5px 5px 18px #29252594;
+}
+.cardtitle{
+  font-size: 15px;
+  color:#000000;
+}
+.cardrow{
+  margin-bottom: 30px;
+  padding-left: 8%;
+}
+/* producationpage */
+.productspagesection1{
+  display:flex;
+  padding:2%;
+  /* border: 1px solid #255E8A; */
+  border-radius: 25px;
+  background-image: linear-gradient(#FAA51A,#ffff);
+}
+.productpagemainimage{
+  width: 500px;
+  height: 469px;
+  /* box-shadow: 5px 5px 18px #29252594;```` */
+}
+.productionpagerow1{
+  padding:8%;
+}
+.productionpagecol1{
+  margin-top: 8%;
+}
+.productioncolh1{
+  font-size:50px;
+  font-weight: 700;
+  color: var(--dark-color);
+}
+.productioncolp{
+  font-size: 16px;
+  text-align: center;
+  margin-left: -10%;
+  color: var(--dark-color);
+  line-height: 27px;
+}
+.productioncolpoints{
+  font-size: 16px;
+  color: var(--dark-color);
+}
+.enquire_button2 Button {
+  color: var(--light-color);
+  font-size: 14px;
+  font-weight: 700;
+  padding: 15px 25px;
+  background-color: var(--activepro-color);
+  border: none;
+  margin-left: 25%;
+}
+.productionpageh1{
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 2%;
+}
+
+
+/* popup */
+.popupmain{
+  /* background-color: rgba(0, 0, 0, 0.5);
+width:1600px;
+height:625px; */
+background-color: #757575d4;
+min-height: 100vh;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+display:none;
+align-items: center;
+justify-content: center;
+}
+.popup{
+  display: flex;
+  flex-direction: column;
+  height:250px;
+  width:500px;
+  background-color: var(--light-color);
+  top:0;
+  right:0;
+  text-align: center;
+  border-radius: 25px;
+  /* top:25%;
+  left:25%;  */
+  align-items: center;
+  /* position:absolute; */
+}
+.popup .close{
+ margin-left:90%;
+ margin-top: 2%;
+ font-size: 20px;
+}
+.popup .phone1{
+ margin-top:6%;
+
+}
+
+.image-3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-3 img{
+  object-fit: contain;
+}
+.contact-below{
+  /* background-color: #000; */
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+  min-width: 300px;
+}
+/* .samebellow2{
+  margin-top: 0;
+} */
+
+
+
+/* media quer*************************************/
+/* landing page */
+@media (max-width:1024PX){
+	.image3{
+	width: 400px;
+  height:400px;
+}
+}
+@media (max-width:1024PX){
+	.phone{
+    margin-left: 81%;
+}
+}
+@media (max-width:768PX){
+	.image3{
+	width: 300px;
+  height:300px;
+}
+}
+@media (max-width:425PX){
+	.right-section{
+	width:350px;
+  height:450px;
+  margin-left: 10%;
+}
+}
+@media (max-width:425px){
+	.phone{
+	margin-top: 20%;
+  margin-left: 12px;
+}
+}
+@media (max-width:768PX){
+	#okok{
+	width:12rem;
+  
+}
+}
+@media (max-width:768PX){
+ .cardservicelandingpage{
+	/* padding-left: */
+  
+}
+}
+@media (max-width:768PX){
+.logowhite{
+	width: 100px;
+  height:100px;
+  margin-top: 50%;   
+}
+}
+@media (max-width:508PX){
+  .right-section{
+    width: 400px;
+    height: 609px;
+    }
+  }
+@media (max-width:508PX){
+  .phone{
+ margin-left:62%;
+ margin-top: 2%;
+ width: 61px;
+ height: 61px;
+  }
+  }
+  @media(max-width:508px){
+    .phonepic{
+    width:32px;
+    height:32px;
+    }
+    }
+@media (max-width:508PX){
+#okok{
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 2%;
+
+}
+}
+@media (max-width:508PX){
+.testimonialcard{
+margin:4%;
+}
+}
+
+@media(max-width:508px){
+  .samebellow2{
+    /* margin-right:24%; */
+    margin-top: 2%;
+  }
+}
+@media(max-width:508px){
+ .samebellow  {
+  margin-top: 2%;
+
+  }
+}
+@media(max-width:508px){
+  .logowhite,.same  {
+   margin-top: 2%;
+ 
+   }
+ }
+@media(max-width:508px){
+.image3{
+margin-top: 1px;
+margin-left:17px;
+}
+}
+
+@media(max-width:508px){
+  .cardimage{
+  height:57px;
+  }
+  }
+  @media(max-width:508px){
+    .cardtext .cardtextbellow{
+    font-size:14px;
+    }
+    }
+    @media(max-width:508px){
+      .section_title{
+      font-size: 27px;
+      }
+      }
+@media(max-width:390px){
+.right-section{
+ width:290px;
+}
+}
+@media(max-width:390px){
+  .image3{
+  
+  margin-left:22px;
+  width:240px;
+  height:240px;
+  }
+}
+@media(max-width:335px){
+  .image3{
+  margin-left:1px;
+  }
+  }
+@media(max-width:335px){
+.right-section{
+width:274px;
+margin-left: 12px;
+}
+}
+
+/* aboutsingle */
+@media (max-width:1024PX){
+.image33{
+  width:380px;
+  height:380px;
+}
+}
+@media (max-width:770PX){
+  .image33{
+   width:300px;
+   height:300px;
+  }
+}
+@media (max-width:508PX){
+.image33{
+width:250px;
+height:250px;
+margin-left: 12%;
+}
+}
+@media (max-width:508PX){
+.firsth1{
+font-size:26px;
+}}
+@media (max-width:390PX){
+.image33{
+width:220px;
+height:220px;
+}}
+@media (max-width:390PX){
+.content{
+font-size:14px;
+}}
+
+/* services page */
+@media (max-width:1024PX){
+.cardservicepage{
+  width:200px;
+
+}}
+@media (max-width:1024PX){
+.cardimgservicepage{
+margin-left: auto;
+margin-right: auto;
+width:173px;
+height:167px;
+}}
+@media (max-width:770PX){
+.cardservicepage{
+width:180px;
+}}
+@media (max-width:490PX){
+.cardrow{
+  margin-bottom: 1px;
+}}
+@media (max-width:490PX){
+.card425{
+  margin-right: auto;
+  margin-left: auto;
+ margin-bottom: 4%;
+}}
+/* productspage */
+@media (max-width:770PX){
+.productpagemainimage{
+  width:360px;
+  height:311px;
+}
+}
+@media (max-width:770PX){
+.productioncolh1{
+font-size:40px;
+}}
+@media (max-width:490PX){
+.productspagesection1{
+display: flex;
+flex-wrap: wrap;
+}}
+@media (max-width:490PX){
+  .productpagemainimage{
+    width:264px;
+    height:233px;
+    margin-left:46px;
+  }}
+  @media (max-width:490PX){
+  .productioncolh1{
+  font-size: 30px;
+  text-align: center;
+  }}
+  @media (max-width:490PX){
+ .productioncolp{
+ font-size: 14px;
+ margin-left: 4px;
+ margin-right: 4px;
+ }}
+ @media (max-width:490PX){
+ .productioncolpoints{
+ font-size:14px;
+ }}
+ @media (max-width:490PX){
+ .cardservicepage{
+ width:185px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: 4%;
+ }}
+ @media (max-width:390PX){
+  .productpagemainimage{
+ margin-left: 43px;
+ width:221px;
+ height:197px;
+  }}
+  @media (max-width:330PX){
+.productpagemainimage{
+margin-left: 16px;
+}}
+@media (max-width:490PX){
+.specialbutton{
+ text-align: center;
+}}
+/* popup */
+@media (max-width:490PX){
+.popup{
+width:215px;
+height:200px;
+}}
+@media (max-width:490PX){
+.phoneno {
+ font-size: 10px;
+}}
+@media (max-width:490PX){
+.gmail, .address{
+font-size: 10px;
+}}
+@media (max-width:490PX){
+.close{
+margin-right: 15%;
+}}
+@media (max-width:490PX){
+  .productionroww{
+  padding:54px
+  /* margin-right:12%; */
+}}
+@media (max-width:490PX){
+.productionpagerow1{
+  /* --bs-gutter-x:0rem;
+   */
+   /* margin-right: 0px; */
+   margin-right:1.rem;
+}}
+@media (max-width:490px){
+.cardservicepage{
+   /* margin-right:1px; */
+}}
+@media (max-width:508PX){
+  #NavHeader .enquire_button button {
+    font-size: 12px;
+    width: 146px;
+    height: 39px;
+    padding: 1px;
+
+  }}
+  @media (max-width:508PX){
+   .enquire_button2 button{
+      font-size: 12px;
+      width: 146px;
+      height: 39px;
+      padding: 1px;
+  
+    }}
+    @media (max-width:508PX){
+      .navbar-toggler-icon{
+        background-color: white;
+       }}
+       
+@media (max-width:508PX){
+      .aboutsinglepage2ndimage{
+        flex-direction: column-reverse;
+}}
